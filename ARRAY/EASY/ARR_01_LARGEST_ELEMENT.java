@@ -28,7 +28,8 @@ public class ARR_01_LARGEST_ELEMENT {
                 max= arr[i];
             }
         }
-        System.out.println("Largest element is "+ max);
+        System.out.println("Largest element is"+ max);
+        
     }
         
     
