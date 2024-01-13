@@ -1,7 +1,7 @@
 public class ARR_02_REMOVE_DUPLICATE {
 
     public static int myApproach(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length;) {
             for (int j = i + 1; j < arr.length - 1; j++) {
                 if(arr[i] != arr[j]){
                     i++;
