@@ -7,6 +7,13 @@ public class ARR_03_SEC_LARGEST_ELEMENT {
         System.out.println();
     }
 
+    public static void Print1(int arr1[]) {
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
+        }
+        System.out.println();
+    }
+
     public static void sort(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
@@ -40,13 +47,16 @@ public static int Optimal(int arr1[]){
 
         // BRUTEFORCE APPROACH
 
-        // sort(arr);
-        // Print(arr);
-        // System.out.println("Largest Element is "+ arr[arr.length-1]);
-        // System.out.println("Second Largest element is "+ arr[arr.length-2]);
+        sort(arr);
+        Print(arr);
+        System.out.println("Largest Element is "+ arr[arr.length-1]);
+        System.out.println("Second Largest element is "+ arr[arr.length-2]);
 
+
+        System.out.println();
         // OPTIMAL APPROACH
         
+        Print1(arr1);
         Optimal(arr1);
         int sL = Optimal(arr1);
         System.out.println("Second Largest element is "+sL);
