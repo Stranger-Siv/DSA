@@ -1,4 +1,3 @@
-import java.util.*;
 public class ARR_12_NUM_APPEAR_ONES_AND_OTHER_TWICE {
 
     public static int bruteApproach(int arr[]){
@@ -29,7 +28,7 @@ public class ARR_12_NUM_APPEAR_ONES_AND_OTHER_TWICE {
     }
     public static void main(String[] args) {
         int arr[]={4,1,2,1,2};
-        
+
         int ans=bruteApproach(arr);
         System.out.println(ans);
 
