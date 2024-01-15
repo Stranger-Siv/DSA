@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class ARR_10_MISSING_NUMBER {
     public static int missingBrute(int arr[]){
         for(int i=1;i<=arr.length;i++){
