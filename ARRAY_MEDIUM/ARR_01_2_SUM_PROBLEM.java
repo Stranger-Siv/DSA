@@ -12,7 +12,6 @@ public class ARR_01_2_SUM_PROBLEM {
 
     public static String var1(int arr[], int k) {
         int n = arr.length;
-        int sum = 0;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (arr[i] + arr[j] == k)
